@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="63" viewBox="0 0 224 63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1abc9c;
+        stroke: #1abc9c;
+        stroke-linejoin: round;
+        stroke-opacity: 0.59;
+        stroke-width: 6px;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="3" y="3" width="218" height="57" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#1abc9c"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #1abc9c; filter: url(#filter)">
+    <rect id="Container" class="cls-1" x="3" y="3" width="218" height="57" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Container" style="stroke: #1abc9c; filter: none; fill: none"/>
+</svg>
