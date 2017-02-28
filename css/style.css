@@ -29,16 +29,15 @@ body {
 .main-navigation {
   padding-top: 55px;
   font-family: "Myriad pro", sans-serif;
-  font-size: 20px;
-  line-height: 1.3;
+  font-size: 20px;  
   text-transform: uppercase;
   font-weight: 400;
+  margin-bottom: 140px;
 }
 
 .main-navigation .logo {
   float: left;
-  width: 480px;
-  margin-bottom: 150px;
+  width: 480px;  
 }
 
 .main-navigation ul {
@@ -64,17 +63,36 @@ body {
   color: white;  
 }
 
+.main-header h1, h5 {
+  margin: 0;
+  text-align: center;
+}
 
+.main-header h1  {  
+  position: relative;
+  font-family: "Rokkitt", serif;
+  font-size: 60px;  
+  font-weight: 400;
+  margin-bottom: 25px;   
+}
 
-h1  {  
+.main-header h1::before {
+  position: absolute;
+  top: 75px;
+  left: 170px;
+  content: "";
   width: 614px;
-   padding-bottom: 12px;
-   border-bottom: solid 1px #fff;
-   margin-bottom: 23px;   
+  height: 1px;
+  background-color: white;
 }
-h5 {
+
+.main-header h5 {
   margin-bottom: 140px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 22px;  
 }
+
 .btn {
   display: inline-block;
 }
