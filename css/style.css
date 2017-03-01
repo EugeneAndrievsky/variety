@@ -19,6 +19,12 @@ body {
   clear: both;
 }
 
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;  
+}
+
 .main-header {
   position: relative;
   background: #e4c5c1 url("../img/header-bg.jpg");
@@ -26,14 +32,7 @@ body {
   background-position: top;
   height: 500px;
   margin-bottom: 150px;
-  color: white;  
-  
-}
-
-.main-header a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;  
+  color: white; 
 }
 
 .main-navigation {
@@ -96,18 +95,22 @@ body {
   font-size: 22px;  
 }
 
-.main-header .btn {
-  display: inline-block;
-  position: absolute;
-  top: 473px;   /* 500 - 15 - 24/2 */
-  left: 490px ; /* (1200-100-120)/2 */
-  
+.btn {
   font-family: "Rokkitt", sans-serif;
   font-size: 24px;
   line-height: 1em;
   background-color: #1abc9c;
   padding: 15px 50px;
   box-shadow: 0 0 0 8px rgba(26,188,156, .6);
+}
+
+.main-header .btn {
+  display: inline-block;
+  position: absolute;
+  top: 473px;   /* 500 - 15 - 24/2 */
+  left: 490px ; /* (1200-100-120)/2 */
+  
+  
 }
 
 .introduction {
@@ -155,7 +158,6 @@ body {
   font-family: "Myriad pro", sans-serif;
 }
 
-
 .skills-description h5 {
   font-size: 1.33em;
   font-weight: bold;
@@ -170,17 +172,38 @@ body {
   margin: 0;
 }
 
-figure {
-  margin-bottom: 75px;
-}
-.portfolio .btn {
-  
-}
 .portfolio {
   padding-bottom: 75px;
-  margin-bottom: 70px;
-  
+  margin-bottom: 70px;  
   border-bottom: solid 1px #e4e8e8;
+}
+
+.portfolio figure {
+  margin:  0;
+  margin-bottom: 20px;  
+}
+
+.portfolio img {
+  margin-bottom: 55px;
+  width: 400px;
+  height: 300px;
+}
+
+.portfolio img:nth-child(2n-1) {
+  float: left;
+}
+
+.portfolio img:nth-child(2n) {
+  float: right;
+}
+
+.portfolio a {
+  display: block;
+  width: 140px;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 70px;
+  box-shadow: none;
 }
 
 .contact {
