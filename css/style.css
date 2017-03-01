@@ -21,7 +21,7 @@ body {
 
 .main-header {
   position: relative;
-  background: #e4c5c1 url("/img/header-bg.jpg");
+  background: #e4c5c1 url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: top;
   height: 500px;
