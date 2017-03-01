@@ -130,27 +130,44 @@ body {
   color: #95a5a6;
   font-size: 1em;
   line-height: 29px;
+  margin: 0;
 }
 
 .skills {
-  padding-bottom: 72px;
+  padding-bottom: 65px;
   border-bottom: solid 1px #e4e8e8;
-  margin-bottom: 72px;
-  
+  margin-bottom: 75px;
 }
-.skills-description {
-  float: left;
+
+.skills-icons {  
+  margin-bottom: 30px;  
+}
+
+.skills-icons, .skills-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-description {  
   width: 250px;
-  margin-right: 105px;
+  text-align: justify;
+  font-size: 15px;
+  font-family: "Myriad pro", sans-serif;
 }
-.skills-description:last-child {
-  margin-right: 0;
+
+
+.skills-description h5 {
+  font-size: 1.33em;
+  font-weight: bold;
+  font-family: "Myriad pro", sans-serif;
+  margin-bottom: 30px;  
+  color: #1abc9c;
 }
-.skills img {
-  margin-bottom: 30px;
-}
-.skills h5 {
-  margin-bottom: 35px;
+
+.skills-description p {
+  color: #95a5a6;
+  line-height: 29px;
+  margin: 0;
 }
 
 figure {
