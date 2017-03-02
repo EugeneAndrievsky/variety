@@ -133,6 +133,7 @@ a {
   color: #95a5a6;
   font-size: 1em;
   line-height: 29px;
+  letter-spacing: 0.5px;
   margin: 0;
 }
 
@@ -169,6 +170,7 @@ a {
 .skills-description p {
   color: #95a5a6;
   line-height: 29px;
+  letter-spacing: .5px;
   margin: 0;
 }
 
@@ -195,6 +197,53 @@ a {
 
 .portfolio img:nth-child(2n) {
   float: right;
+}
+
+.portfolio-image {
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 300px;
+  font-size: 15px;  
+  background-color: lightgreen
+}
+
+.portfolio-image a {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: turquoise;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.portfolio-image-title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  background-color: #1abc9c;
+  box-shadow: 0 -6px 0 0 rgba(26,188,156, .6);
+  }
+
+.portfolio-image-title h4 {
+  margin: 0;
+  font-family: "Rokkitt", serif;
+  font-size: 2em;
+  font-weight: 400;
+  color: white;
+}
+.portfolio-image-title p {
+  margin: 0;
+  font-family: "Myriad pro";
+  font-size: 1em;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  color: #297465;
 }
 
 .portfolio a {
