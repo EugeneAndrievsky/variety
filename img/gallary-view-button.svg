@@ -1,32 +1,11 @@
-<svg id="Button_View_more_" data-name="Button (View more)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
   <defs>
     <style>
       .cls-1 {
-        fill: #1abc9c;
-        stroke: #1abc9c;
-        stroke-linejoin: round;
-        stroke-opacity: 0.59;
-        stroke-width: 6px;
-        filter: url(#filter);
-      }
-
-      .cls-1, .cls-2 {
+        fill: #fff;
         fill-rule: evenodd;
       }
-
-      .cls-2 {
-        fill: #fff;
-      }
     </style>
-    <filter id="filter" x="1010" y="1417" width="50" height="50" filterUnits="userSpaceOnUse">
-      <feFlood result="flood" flood-color="#1abc9c"/>
-      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
-    </filter>
   </defs>
-  <g transform="translate(-1007 -1414)" style="fill: #1abc9c; filter: url(#filter)">
-    <path id="Container" class="cls-1" d="M1060,1417v50h-50.01v-50H1060Z" style="stroke: inherit; filter: none; fill: inherit"/>
-  </g>
-  <use transform="translate(-1007 -1414)" xlink:href="#Container" style="stroke: #1abc9c; filter: none; fill: none"/>
-  <path id="Icon" class="cls-2" d="M1043.01,1440.49a6.51,6.51,0,1,1-6.51-6.49A6.5,6.5,0,0,1,1043.01,1440.49Zm-10.99,4.12,0.34,0.34a0.477,0.477,0,0,1,0,.68l-1.7,1.7a0.5,0.5,0,0,1-.68,0l-0.34-.34a0.477,0.477,0,0,1,0-.68l1.7-1.7A0.5,0.5,0,0,1,1032.02,1444.61Zm-1.82,1.01,1.14,1.15a0.52,0.52,0,0,1,0,.76l-2.28,2.28a0.549,0.549,0,0,1-.77,0l-1.14-1.14a0.537,0.537,0,0,1,0-.76l2.29-2.29A0.537,0.537,0,0,1,1030.2,1445.62Zm10.3-5.13a4,4,0,1,1-4-3.99A4,4,0,0,1,1040.5,1440.49Z" transform="translate(-1007 -1414)"/>
+  <path id="Icon" class="cls-1" d="M1043.01,1440.49a6.51,6.51,0,1,1-6.51-6.49A6.5,6.5,0,0,1,1043.01,1440.49Zm-10.99,4.12,0.34,0.34a0.477,0.477,0,0,1,0,.68l-1.7,1.7a0.5,0.5,0,0,1-.68,0l-0.34-.34a0.477,0.477,0,0,1,0-.68l1.7-1.7A0.5,0.5,0,0,1,1032.02,1444.61Zm-1.82,1.01,1.14,1.15a0.52,0.52,0,0,1,0,.76l-2.28,2.28a0.549,0.549,0,0,1-.77,0l-1.14-1.14a0.537,0.537,0,0,1,0-.76l2.29-2.29A0.537,0.537,0,0,1,1030.2,1445.62Zm10.3-5.13a4,4,0,1,1-4-3.99A4,4,0,0,1,1040.5,1440.49Z" transform="translate(-1027 -1434)"/>
 </svg>
