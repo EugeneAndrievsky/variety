@@ -66,6 +66,15 @@ a {
   margin-right: 0px;
 }
 
+.main-navigation li.current {
+  text-transform: uppercase;  
+  color: #1abc9c;
+}
+
+.main-navigation li a:hover{
+  border-bottom: 1px solid white;
+}
+
 .main-header h1, h5 {
   margin: 0;
   text-align: center;
