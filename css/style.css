@@ -323,10 +323,7 @@ a {
   height: 0;
   border-left: 12px solid white;
   border-top: 12px solid transparent; 
-  border-bottom: 12px solid transparent;
-  
-  
-  
+  border-bottom: 12px solid transparent;  
 }
 
 .contact {
@@ -384,17 +381,22 @@ a {
 }
 
 .footer {
+  min-height: 20px;
   padding-top: 145px;
   padding-bottom: 75px;
-  background-color: #1abc9c;
-  background-position: bottom;  
+  background-color: #1abc9c; 
+    
+  font-family: "Rokkitt", sans-serif;
+  font-size: 24px;  
+  color: white;
 }
 
 .footer b {
-  display: block;
+  font-weight: 400;
   float: left;
 }
 .footer .studio {
   float: right;
+  text-transform: none;
 }
 
