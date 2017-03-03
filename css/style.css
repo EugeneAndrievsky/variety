@@ -308,6 +308,15 @@ a {
 
 .contact form, .contact form > * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.contact input {
+  width: 370px;
+  height: 70px;
+ 
+  
 }
 
 .social {
