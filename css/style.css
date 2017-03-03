@@ -296,8 +296,18 @@ a {
   margin-bottom: 120px;
 }
 
-h2 {
-  margin-bottom: 75px;
+.contact h2 {
+  text-align: center;
+  font-family: "Rokkitt", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #1abc9c;
+  margin-bottom: 70px;
+  
+}
+
+.contact form, .contact form > * {
+  box-sizing: border-box;
 }
 
 .social {
@@ -316,8 +326,7 @@ h2 {
   padding-top: 145px;
   padding-bottom: 75px;
   background-color: #1abc9c;
-  background-position: bottom;
-  
+  background-position: bottom;  
 }
 
 .footer b {
