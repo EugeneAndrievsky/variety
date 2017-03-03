@@ -110,16 +110,14 @@ a {
   line-height: 1em;
   background-color: #1abc9c;
   padding: 15px 50px;
-  box-shadow: 0 0 0 8px rgba(26,188,156, .6);
+  box-shadow: 0 0 0 6px rgba(26,188,156, .6);
 }
 
 .main-header .btn {
   display: inline-block;
   position: absolute;
   top: 473px;   /* 500 - 15 - 24/2 */
-  left: 490px ; /* (1200-100-120)/2 */
-  
-  
+  left: 490px ; /* (1200-100-120)/2 */  
 }
 
 .introduction {
@@ -206,16 +204,18 @@ a {
 .portfolio-image:nth-child(1) {
   background: url("../img/image-1.jpg");
 }
+
 .portfolio-image:nth-child(2) {
   background: url("../img/image-2.jpg");
 }
+
 .portfolio-image:nth-child(3) {
   background: url("../img/image-3.jpg");
 }
+
 .portfolio-image:nth-child(4) {
   background: url("../img/image-4.jpg");
 }
-
 
 .portfolio-image:nth-child(2n-1) {
   float: left;
@@ -369,20 +369,38 @@ a {
 }
 
 .social {
-  min-height: 30px;
+  position: relative;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
 }
+
 .social a {
-  
-  float: left;
-  margin-right: 225px
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  margin: 0 6px;
+  box-shadow: 0 0 0 6px rgba(26,188,156, .6);    
 }
-.social a:last-child {
-  margin-right: 0;
+
+.social .tw {
+  left: 0;
+  background: white  url("../img/twitter.png") no-repeat center;
+}
+
+.social .fb {
+  left: 334px;
+  background: white  url("../img/facebook.svg") no-repeat center;
+}
+
+.social .dr {
+  right: 0;
+  background: white  url("../img/dribbble.svg") no-repeat center;
 }
 
 .footer {
   min-height: 20px;
-  padding-top: 145px;
+  padding-top: 144px;
   padding-bottom: 75px;
   background-color: #1abc9c; 
     
