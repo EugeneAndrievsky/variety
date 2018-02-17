@@ -64,7 +64,8 @@ body {
   vertical-align: top;
 
   background-color: #1abc9c;
-  box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
+  -webkit-box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
+          box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
 }
 
 .clearfix::after {
@@ -189,7 +190,9 @@ a {
   bottom: 0;
   left: 50%;
 
-  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+
+          transform: translate(-50%, 50%);
 }
 
 .introduction {
@@ -221,8 +224,12 @@ a {
 }
 
 .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 75px;
   padding-bottom: 65px;
 
@@ -335,7 +342,8 @@ a {
   height: 44px;
 
   background: #1abc9c url("../img/gallary-view-button.svg") no-repeat center;
-  box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
+  -webkit-box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
+          box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
   opacity: 1;
 }
 
@@ -344,12 +352,15 @@ a {
   left: 0;
   bottom: 0;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
   width: 100%;
   padding: 20px;
 
   background-color: #1abc9c;
-  box-shadow: 0 -6px 0 0 rgba(26, 188, 156, .6);
+  -webkit-box-shadow: 0 -6px 0 0 rgba(26, 188, 156, .6);
+          box-shadow: 0 -6px 0 0 rgba(26, 188, 156, .6);
 }
 
 .portfolio-image-title h4 {
@@ -388,7 +399,9 @@ a {
   padding-left: 25px;
   padding-right: 70px;
 
-  box-shadow: none;
+  -webkit-box-shadow: none;
+
+          box-shadow: none;
 }
 
 .portfolio .btn::before {
@@ -434,7 +447,8 @@ a {
 }
 
 .contact form > * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   padding-left: 30px;
   margin: 0;
@@ -467,8 +481,14 @@ a {
 .social {
   position: relative;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 24px;
 }
 
@@ -477,7 +497,9 @@ a {
   height: 88px;
   margin: 0 6px;
 
-  box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
+  -webkit-box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
+
+          box-shadow: 0 0 0 6px rgba(26, 188, 156, .6);
 }
 
 .social-twitter {
