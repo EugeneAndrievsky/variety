@@ -6,7 +6,7 @@
   <title>Screen-design</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand|Rokkitt" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand%7CRokkitt" rel="stylesheet">
 </head>  
 
 <body>
@@ -33,30 +33,28 @@
 <main class="main-container">  
   <section class="introduction container">
     <h3 id="raphael">raphael lechner</h3>  
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
   </section>
+  
   <section class="skills">
-    <div class="skills-icons container">
-      <img src="img/skill-Icon-1.png" alt="">
-      <img src="img/Skill-Icon-2.svg" alt="">
-      <img src="img/Skill-Icon-3.svg" alt="">
+    <div class="skills-description">
+      <img class="skills-icon" src="img/skill-icon-1.png" width="64" height="64" alt="skill-icon">   
+      <h5>Sketching is a fun</h5>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
     </div>
-    <div class="skills-flex">
-      <div class="skills-description">      
-        <h5>Sketching is a fun</h5>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren diam nonumy eirmod traum</p>
-      </div>
-      <div class="skills-description">      
-        <h5>Design afterwards</h5>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren diam nonumy eirmod traum</p>
-      </div>
-      <div class="skills-description">      
-        <h5>Finalize</h5>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren diam nonumy eirmod traum</p>
-      </div>
+    <div class="skills-description">   
+      <img class="skills-icon" src="img/skill-icon-2.svg" width="64" height="64" alt="skill-icon">   
+      <h5>Design afterwards</h5>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
+    </div>
+    <div class="skills-description"> 
+      <img class="skills-icon" src="img/skill-icon-3.png" width="51" height="64" alt="skill-icon">     
+      <h5>Finalize</h5>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
     </div>
   </section>  
-  <section class="portfolio ">
+  
+  <section class="portfolio">
     <figure class="clearfix">      
       <div class="portfolio-image">
         <div class="portfolio-image-container">
@@ -100,23 +98,25 @@
   <!-- полоска в 1пх e4e8e8-->
   <section class="contact container">
     <h2>Get in touch!</h2>
-    <form action="" method="post">
+    <form action="https://echo.htmlacademy.ru" method="post">
       <input type="text" value="Name" name="name">
       <input type="text" value="Email" name="email">
       <textarea name="message" cols="30" rows="10">How can I help you?</textarea>
+      <button class="visually-hidden" type="submit"></button>
     </form>
   </section>
+  
   <div class="social container">
-    <a class="tw" href="#"></a>
-    <a class="fb" href="#"></a>
-    <a class="dr" href="#"></a>
+    <a class="social-twitter" href="#"></a>
+    <a class="social-facebook" href="#"></a>
+    <a class="social-dribbble" href="#"></a>
   </div>
 </main>
 
 <footer class="footer">
   <div class="main-container clearfix">
-    <b class="copy">&copy; Raphael Lechner</b>
-    <a class="studio" href="#">Imprint</a>
+    <b class="footer-copy">&copy;Raphael Lechner</b>
+    <a class="footer-studio" href="#">Imprint</a>
   </div>
 </footer>
 
